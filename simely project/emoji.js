@@ -1,5 +1,5 @@
 var input = document.querySelector('.text');
-        var picker = new emojiButton({ 
+        var picker = new EmojiButton({ 
             position: 'right-start'//auto
         })
         picker.on('emoji', function(emoji) { 
